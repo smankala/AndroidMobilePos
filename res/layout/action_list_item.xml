@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp" 
+    >
+    <TextView
+        android:paddingTop="16dp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/actionitemtext"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="16dp" />
+
+</RelativeLayout>

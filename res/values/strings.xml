@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">MobilePOS</string>
+    <string name="title_useraction_detail">UserAction Detail</string>
+    
+   <string-array name="useroperations">
+        <item name="menu">Menu</item>
+        <item name="chefview">Chefs View</item>
+        <item name="admin">Admin</item>
+    </string-array>
+    
+      <string-array name="item_categories">
+        <item>@string/appetizer</item>
+        <item>@string/entree</item>
+        <item>@string/dessert</item>
+        <item>@string/other</item>
+    </string-array>
+    
+   <string name="tab_select_color">FF88FF</string>
+   
+ 
+    
+   <!--Menu action bar items -->
+   <string name="add_menu">Add Menu Item</string>
+   
+   <!--  Menu Tab items -->
+   
+    <string name="appetizer">Appetizer</string>
+    <string name="entree">Entree</string>
+    <string name="dessert">Dessert</string>
+    <string name="other">Other</string>
+</resources>

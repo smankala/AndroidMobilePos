@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="3dp">
+     <Button
+        android:visibility="gone"
+        android:id="@+id/newOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Order" />
+      <TextView
+          android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:paddingTop="20dip"
+           android:text="Order Information"
+           android:textSize="30dip"
+           android:textColor="#FFBB33"
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_blue_light" />
+     <ListView
+        android:id="@+id/order_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false" />
+     <Button
+        android:id="@+id/sendOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SendOrder" />
+     
+     
+    
+     
+</LinearLayout>
